@@ -1,10 +1,14 @@
-function addTen(x) {
-  return x + 10;
-}
+// Do not modify these first two lines
+let iceCreamFlavours = ["chocolate", "vanilla", "cookies and cream", "rocky road", "strawberry"];
+console.log(iceCreamFlavours);
 
-function divideByThree(y) {
-  return y / 3;
-}
+// Your code below here...
 
-var result = addTen(2);
-console.log(divideByThree(result));
+iceCreamFlavours.push("root beer");
+console.log(iceCreamFlavours);
+
+console.log(iceCreamFlavours[0]);
+
+console.log(iceCreamFlavours[5]);
+
+console.log(iceCreamFlavours.length)
